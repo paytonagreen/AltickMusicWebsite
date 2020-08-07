@@ -144,11 +144,16 @@ header {
     overflow: hidden;
     color: #fff;
     height: $navbar-height;
-    opacity: 1;
+    opacity: .8;
     float: top;
     position: fixed;
     width: 100%;
     z-index: 2;
+    transition: .5s;
+}
+
+header.scrolled {
+    opacity: 1;
 }
 
 .logo {

@@ -1,8 +1,30 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
+
+  useEffect(() => {
+  const navbar = document.querySelector('header');
+  let scrolled = false;
+    
+    window.onscroll = () => {
+      if(window.pageYOffset > 100) {
+        navbar.classList.add('scrolled');
+        if (!scrolled) {
+          navbar.style.transform = 'translateY(-70px)';
+        }
+        setTimeout(() => {
+          navbar.style.transform = 'translateY(0px)';
+          scrolled = true;
+        }, 200)
+      } else {
+        navbar.classList.remove('scrolled');
+        scrolled = false;
+      }
+    };
+  });
+
   return (
     <div>
       <header>

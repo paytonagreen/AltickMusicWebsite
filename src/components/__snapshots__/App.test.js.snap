@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders properly 1`] = `
+<BrowserRouter>
+  <NavBar />
+  <Switch>
+    <Route
+      exact={true}
+      path="/"
+    >
+      <Home />
+    </Route>
+    <Route
+      path="/store-placeholder"
+    >
+      <StorePlaceholder />
+    </Route>
+    <Route
+      path="/restoration"
+    >
+      <Restoration />
+    </Route>
+  </Switch>
+</BrowserRouter>
+`;

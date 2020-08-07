@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoreShowcase renders correctly 1`] = `
+<section
+  id="showcase"
+>
+  <div
+    className="showcase-content"
+  >
+    <h3>
+      <span
+        className="secondary-text"
+      >
+        Store coming soon!
+      </span>
+    </h3>
+    <p
+      className="tertiary-text"
+    >
+      In the meantime, check out our Reverb page!
+    </p>
+    <a
+      className="btn-blue"
+      href="http://reverb.com/shop/altick-music-co"
+    >
+      Our Reverb.com Page
+    </a>
+  </div>
+</section>
+`;

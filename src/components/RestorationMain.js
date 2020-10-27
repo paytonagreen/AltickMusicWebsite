@@ -3,17 +3,6 @@ import Wurli2 from '../img/wurli-2.jpg'
 
 const RestorationMain = () => {
 
-  const itemsToggle = () => {
-    const seeMore = document.querySelector('.see-more');
-
-      if (seeMore.textContent === 'See More') {
-        seeMore.textContent = 'See Less';
-      } else {
-        seeMore.textContent = 'See More'
-      }
-      document.querySelector('#examples-flex-grid').classList.toggle('row--hidden');
-  }
-
   return (
     <div>
     <section id="examples" className="section-padding flex-grid">

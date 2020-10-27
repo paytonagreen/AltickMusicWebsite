@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
   useEffect(() => {
   const navbar = document.querySelector('header');
@@ -35,9 +34,9 @@ const NavBar = () => {
                 {/* <button onClick={() => setHamburgerOpen(!hamburgerOpen)} id="hamburger-button"><div/><div/><div/></button> */}
                   <div className="navbar">
                       <ul>
-                          <Link onClick={() => setHamburgerOpen(false)} className="restoration-link" to="/restoration"><li>Restoration</li></Link>
-                          <Link onClick={() => setHamburgerOpen(false)} className="repair-link" to="/repair"><li>Repair</li></Link>
-                          <Link onClick={() => setHamburgerOpen(false)} className="store-link" to="/store-placeholder"><li>For Sale</li></Link>
+                          <Link className="restoration-link" to="/restoration"><li>Restoration</li></Link>
+                          <Link className="repair-link" to="/repair"><li>Repair</li></Link>
+                          <Link className="store-link" to="/store-placeholder"><li>For Sale</li></Link>
                       </ul>
                   </div>
             </nav>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme'
 
-import StoreShowcase from './StoreShowcase';
+import StoreShowcase from '../StoreShowcase';
 
 describe('StoreShowcase', () => {
   const storeShowcase = shallow(<StoreShowcase/>);

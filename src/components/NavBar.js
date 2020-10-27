@@ -1,8 +1,9 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
   useEffect(() => {
   const navbar = document.querySelector('header');
@@ -31,13 +32,14 @@ const NavBar = () => {
         <div className="flex-container container">
             <Link className="home-link" to="/"><h3 className="logo"><span className="secondary-text">DL Altick</span> Restoration & Repair</h3></Link>
             <nav>
-                <div className="navbar">
-                    <ul>
-                        <Link className="restoration-link" to="/restoration"><li>Restoration</li></Link>
-                        <Link className="repair-link" to="/repair"><li>Repair</li></Link>
-                        <Link className="store-link" to="/store-placeholder"><li>For Sale</li></Link>
-                    </ul>
-                </div>
+                {/* <button onClick={() => setHamburgerOpen(!hamburgerOpen)} id="hamburger-button"><div/><div/><div/></button> */}
+                  <div className="navbar">
+                      <ul>
+                          <Link onClick={() => setHamburgerOpen(false)} className="restoration-link" to="/restoration"><li>Restoration</li></Link>
+                          <Link onClick={() => setHamburgerOpen(false)} className="repair-link" to="/repair"><li>Repair</li></Link>
+                          <Link onClick={() => setHamburgerOpen(false)} className="store-link" to="/store-placeholder"><li>For Sale</li></Link>
+                      </ul>
+                  </div>
             </nav>
         </div>
       </header>

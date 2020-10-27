@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import StorePlaceholder from './StorePlaceholder';
+import StorePlaceholder from '../StorePlaceholder';
 
 describe('StorePlaceholder', () => {
   const storePlaceholder = shallow(<StorePlaceholder/>);

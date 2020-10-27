@@ -1,0 +1,77 @@
+@import 'config';
+@import 'variables';
+
+@media (max-width:768px) {
+  $navbar-height: 125px;
+
+  .showcase-content {
+    padding: 1rem;
+  }
+
+  header {
+    min-height: $navbar-height;
+  }
+
+  #hamburger-button {
+      position: absolute;
+      width: 2rem;
+      height: 2rem;
+      font-size: .75rem;
+      top: 20%;
+      right: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: $color-3;
+      color: $color-2;
+      border: none;
+      padding: .5rem;
+      border-radius: 5px;
+      div {
+          min-height: 2px;
+          width: 90%;
+          background: $color-2;
+          margin: 2px;
+      }
+  }
+  
+  .flex-container {
+      flex-direction: column;
+  }
+
+  .logo {
+      margin-top: 2rem;
+  }
+
+  .navbar ul {
+      flex-direction: column;
+      margin-bottom: 1rem;
+  }
+
+  .navbar li {
+      padding: .25rem;
+  }
+
+  .flex-columns {
+      flex-direction: column;
+  }
+
+  .flex-columns .column-1,
+  .flex-columns .column-2 {
+      width: 100%;
+      text-align: center;
+  }
+
+  .flex-columns .column-2 {
+      padding: 2.5rem;
+  }
+
+  .nav a {
+      border-bottom: $color-3 solid 1px;
+  }
+
+  #examples {
+      padding-top: 40vh;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import HomeRestoration from './HomeRestoration';
+import HomeRestoration from '../HomeRestoration';
 
 describe('HomeRestoration', () => {
   const homeRestoration = shallow(<HomeRestoration/>)

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeAbout renders correctly 1`] = `
+<div>
+  <section
+    id="about"
+  >
+    <div
+      className="flex-columns background-blue"
+    >
+      <div
+        className="column-1"
+      >
+        <img
+          alt=""
+          src="Dustin1.png"
+        />
+      </div>
+      <div
+        className="column-2"
+      >
+        <h2>
+          About Dustin
+        </h2>
+        <p>
+          Dustin Altick is a lover and caretaker of musical instruments of all kinds. His first love was of guitars, but his focus now is primarily on restoring and repairing vintage electric pianos, with a focus on Wurlitzer and Fender Rhodes.
+        </p>
+        <Link
+          className="btn"
+          to="/restoration"
+        >
+          See Our Work
+        </Link>
+      </div>
+    </div>
+  </section>
+</div>
+`;

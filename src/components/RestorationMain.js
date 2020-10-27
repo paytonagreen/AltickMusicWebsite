@@ -21,13 +21,7 @@ const RestorationMain = () => {
         <h2><span class="secondary-text">Back To Life</span></h2>
         <p>Here at DL Altick, we believe in doing our best to make old new again. We treasure the craftsmanship of vintage equipment, and work hard to use the best of vintage techniques in tandem with modern options.</p>
       </div>
-      <button 
-        onClick={itemsToggle}
-        className="btn see-more"
-        >
-          See More
-        </button>
-      <div id="examples-flex-grid" class="row row--hidden">
+      <div id="examples-flex-grid" class="row">
           <div class="column">
             <img src={Wurli2} alt=""/>
             <img src={Wurli2} alt=""/>

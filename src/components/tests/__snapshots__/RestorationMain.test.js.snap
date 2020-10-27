@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestorationMain renders correctly 1`] = `
+<div>
+  <section
+    className="section-padding flex-grid"
+    id="examples"
+  >
+    <div
+      className="section-header"
+    >
+      <h2>
+        <span
+          class="secondary-text"
+        >
+          Back To Life
+        </span>
+      </h2>
+      <p>
+        Here at DL Altick, we believe in doing our best to make old new again. We treasure the craftsmanship of vintage equipment, and work hard to use the best of vintage techniques in tandem with modern options.
+      </p>
+    </div>
+    <button
+      className="btn see-more"
+      onClick={[Function]}
+    >
+      See More
+    </button>
+    <div
+      class="row row--hidden"
+      id="examples-flex-grid"
+    >
+      <div
+        class="column"
+      >
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+      </div>
+      <div
+        class="column"
+      >
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+      </div>
+      <div
+        class="column"
+      >
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+        <img
+          alt=""
+          src="wurli-2.jpg"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
